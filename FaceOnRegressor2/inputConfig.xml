@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<OSCInputGroup>
+  <oscMessage>/pose/orientation</oscMessage>
+  <numInputs>3</numInputs>
+  <groupName>Inputs</groupName>
+  <inputNames>
+    <string>orientation-1</string>
+    <string>orientation-2</string>
+    <string>orientation-3</string>
+  </inputNames>
+</OSCInputGroup>
