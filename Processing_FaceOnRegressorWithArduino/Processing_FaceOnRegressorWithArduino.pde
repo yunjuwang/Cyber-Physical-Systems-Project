@@ -125,8 +125,10 @@ void moveMotor(){
     return; // Do nothing if the case doesn't change
     
   if(millis() - coldDownTimer >= timeToColdDown){
-    println("Sent serial message: " + currCase);
-    port.write(currCase);
+    //println("Sent serial message: " + currCase);
+    //port.write(currCase);
+    println("Sent serial message: " + value);
+    port.write((int)value);
   
     coldDownTimer = millis();    
   }
